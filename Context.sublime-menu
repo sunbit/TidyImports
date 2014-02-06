@@ -1,0 +1,21 @@
+[
+    {
+        "id": "tidyimport",
+        "caption": "TidyImports",
+        "children":
+        [
+            {
+                "caption": "Remove unused & prettify imports",
+                "command": "remove_unused_and_prettify_imports"
+            },        
+            {
+                "caption": "Prettyfy imports",
+                "command": "prettify_imports"
+            },
+            {
+                "caption": "Remove unused imports",
+                "command": "remove_unused_imports"
+            }
+        ]
+    }
+]
