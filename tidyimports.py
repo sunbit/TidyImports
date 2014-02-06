@@ -110,7 +110,7 @@ class RemoveUnusedImportsCommand(sublime_plugin.TextCommand, TidyImports):
         self.remove_unused_imports(edit)
 
 
-class RemoveUnusedAndPrettifyImportsCommand(sublime_plugin.TextCommand, AutoImports):
+class RemoveUnusedAndPrettifyImportsCommand(sublime_plugin.TextCommand, TidyImports):
     def run(self, edit):
         self.remove_unused_imports(edit)
         self.prettify_imports(edit)
